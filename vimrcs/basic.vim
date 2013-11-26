@@ -33,7 +33,7 @@ set nocompatible               " be iMproved
  " see :h vundle for more details or wiki for FAQ
  " NOTE: comments after Bundle command are not allowed..
 set tabstop=2
-se nu
+set number
 set shiftwidth=4
 set expandtab
 set autoindent
