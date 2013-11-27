@@ -39,6 +39,7 @@ set expandtab
 set autoindent
 set modeline
 set ls=2
+set list
 "ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
