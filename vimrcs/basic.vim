@@ -55,7 +55,6 @@ let g:erlangCompletionDisplayDoc = 1
 let g:erlangWranglerPath = "/usr/local/share/wrangler"
 let g:erlangRefactoring = 1
 "Ruler
-set colorcolumn=80
 highlight ColorColumn ctermbg=DarkGray
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
