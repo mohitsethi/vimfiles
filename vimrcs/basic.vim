@@ -58,3 +58,6 @@ let g:erlangRefactoring = 1
 highlight ColorColumn ctermbg=DarkGray
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" Ignore case when searching
+set ignorecase
