@@ -61,3 +61,4 @@ match OverLength /\%81v.\+/
 
 " Ignore case when searching
 set ignorecase
+set history=50
