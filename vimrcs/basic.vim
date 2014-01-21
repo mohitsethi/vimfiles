@@ -15,6 +15,7 @@ set nocompatible               " be iMproved
  Bundle 'Lokaltog/vim-easymotion'
  Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
  Bundle 'tpope/vim-rails.git'
+ Bundle 'vim-ruby/vim-ruby'
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
@@ -41,6 +42,7 @@ set modeline
 set ls=2
 set list
 "ruby
+autocmd FileType ruby compiler ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
