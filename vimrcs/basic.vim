@@ -21,6 +21,8 @@ set nocompatible               " be iMproved
  Bundle 'FuzzyFinder'
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
+ Bundle 'ervandew/supertab'
+ Bundle 'scrooloose/syntastic'
  " ...
 
  filetype plugin indent on     " required!
