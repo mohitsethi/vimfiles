@@ -43,6 +43,12 @@ set autoindent
 set modeline
 set ls=2
 set list
+set cursorline
+set vb t_vb=                                " disable beep and flashing
+set wildmenu                                " better auto complete
+set wildmode=longest,list                   " bash-like auto complete
+set history=1000
+set autoread                                " refresh if changed
 "ruby
 autocmd FileType ruby compiler ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
