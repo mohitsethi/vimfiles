@@ -43,6 +43,10 @@ set autoindent
 set modeline
 set ls=2
 set list
+set mouse=a                                 " Enable mouse features
+set showmatch                               " Show matching for symbols like () and etc
+filetype on
+filetype plugin on
 set cursorline                              " Highlight current line
 " Default Colors for CursorLine
 highlight  CursorLine ctermbg=DarkBlue ctermfg=White
@@ -79,7 +83,7 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 " Ignore case when searching
 set ignorecase
-set history=50
+set history=1000
 "set statusline=
 "set statusline+=%-3.3n\                      " buffer number
 "set statusline+=%f\                          " filename
@@ -90,3 +94,9 @@ set history=50
 "set statusline+=0x%-8B                       " character value
 "set statusline+=%-14(%l,%c%V%)               " line, character
 "set statusline+=%<%P                         " file position
+
+" Backups and swap {{{
+" set backup
+" set backupdir=~/.vim/backup
+" set noswapfile
+" }}}
