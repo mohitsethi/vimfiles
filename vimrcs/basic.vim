@@ -43,7 +43,15 @@ set autoindent
 set modeline
 set ls=2
 set list
-set cursorline
+set cursorline                              " Highlight current line
+" Default Colors for CursorLine
+highlight  CursorLine ctermbg=DarkBlue ctermfg=White
+
+" Change Color when entering Insert Mode
+autocmd InsertEnter * highlight  CursorLine ctermbg=DarkGreen ctermfg=White
+
+" Revert Color to default when leaving Insert Mode
+autocmd InsertLeave * highlight  CursorLine ctermbg=DarkBlue ctermfg=White
 set vb t_vb=                                " disable beep and flashing
 set wildmenu                                " better auto complete
 set wildmode=longest,list                   " bash-like auto complete
