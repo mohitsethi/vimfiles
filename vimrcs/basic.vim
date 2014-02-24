@@ -22,7 +22,7 @@ set nocompatible               " be iMproved
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'ervandew/supertab'
- Bundle 'scrooloose/syntastic'
+ Bundle 'mohitsethi/syntastic'
  " ...
 
  filetype plugin indent on     " required!
