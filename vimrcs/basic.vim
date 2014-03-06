@@ -24,6 +24,7 @@ set nocompatible               " be iMproved
  Bundle 'ervandew/supertab'
  Bundle 'mohitsethi/syntastic'
  Bundle 'mohitsethi/vim-pathogen'
+ Bundle 'elixir-lang/vim-elixir'
  " ...
 
  filetype plugin indent on     " required!
