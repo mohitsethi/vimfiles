@@ -23,6 +23,7 @@ set nocompatible               " be iMproved
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'ervandew/supertab'
  Bundle 'mohitsethi/syntastic'
+ Bundle 'mohitsethi/vim-pathogen'
  " ...
 
  filetype plugin indent on     " required!
