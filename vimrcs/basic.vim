@@ -101,3 +101,4 @@ set history=1000
 " set backupdir=~/.vim/backup
 " set noswapfile
 " }}}
+ execute pathogen#infect()
