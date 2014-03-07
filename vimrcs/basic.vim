@@ -20,11 +20,12 @@ set nocompatible               " be iMproved
  Bundle 'L9'
  Bundle 'FuzzyFinder'
  " non github repos
- Bundle 'git://git.wincent.com/command-t.git'
+ Bundle 'wincent/Command-T'
  Bundle 'ervandew/supertab'
  Bundle 'mohitsethi/syntastic'
  Bundle 'mohitsethi/vim-pathogen'
  Bundle 'elixir-lang/vim-elixir'
+ Bundle 'mohitsethi/vim-airline'
  " ...
 
  filetype plugin indent on     " required!
@@ -103,3 +104,5 @@ set history=1000
 " set noswapfile
 " }}}
  execute pathogen#infect()
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
