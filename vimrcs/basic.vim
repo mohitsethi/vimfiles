@@ -106,3 +106,4 @@ set history=1000
  execute pathogen#infect()
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
