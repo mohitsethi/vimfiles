@@ -103,7 +103,7 @@ set history=1000
 " set backupdir=~/.vim/backup
 " set noswapfile
 " }}}
- execute pathogen#infect()
+" execute pathogen#infect()
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
