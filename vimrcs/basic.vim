@@ -26,6 +26,7 @@ set nocompatible               " be iMproved
  Bundle 'mohitsethi/vim-pathogen'
  Bundle 'elixir-lang/vim-elixir'
  Bundle 'mohitsethi/vim-airline'
+ Bundle 'mohitsethi/vim-golang'
  " ...
 
  filetype plugin indent on     " required!
