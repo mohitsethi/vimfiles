@@ -1,4 +1,4 @@
-set nocompatible               " be iMproved
+ set nocompatible               " be iMproved
  filetype off                   " required!
 
  set rtp+=~/.vim_runtime
@@ -27,6 +27,7 @@ set nocompatible               " be iMproved
  Bundle 'elixir-lang/vim-elixir'
  Bundle 'mohitsethi/vim-airline'
  Bundle 'mohitsethi/vim-golang'
+ Bundle 'mohitsethi/vim-surround'
  " ...
 
  filetype plugin indent on     " required!
