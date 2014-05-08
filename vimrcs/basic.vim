@@ -28,6 +28,7 @@
  Bundle 'mohitsethi/vim-airline'
  Bundle 'mohitsethi/vim-golang'
  Bundle 'mohitsethi/vim-surround'
+ Bundle 'mohitsethi/nerdtree'
  " ...
 
  filetype plugin indent on     " required!
